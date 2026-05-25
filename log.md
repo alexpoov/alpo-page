@@ -14,7 +14,7 @@ I start by asking basic questions:
 
 # UX 
 
-I want to pay special attention not only to how my website will look like, but how people wil use it.
+I want to pay special attention not only to how my website will look like, but how people will use it. Therefore, let's unravel what's written above...
 
 ## User Persona / Jobs to be Done
 
@@ -46,6 +46,33 @@ Now, let's try to apply this formula to each of ~~two~~ three main types of user
 ## Conceptual Model
 
 Another framework that I really liked during my UX studies. It represents every object as a noun, action as a verb, and attribute as an adjective. The goal is to make the interaction design coherent between objects of the same nature. You can find the version for the website on [this spreadsheet](https://docs.google.com/spreadsheets/d/1Clvayl9yoJMd_yLsLn0FDXXEwthiAq2WW0XDpeX0QBs/edit?usp=sharing).
+
+# Feature prioritization / MGMT
+
+The last step is to understand in which order to create stuff. Milestones:
+
+1. About me - landing page to start replacing old url everywhere
+    - [ ] write a content
+    - [ ] create a design 
+    - [ ] air it! (a lot more than you actually think cuz here the coding begins...)
+
+2. 1st post 
+    * upload and edit workflow 
+        - [ ] converting from `.md`/`.rmd`/`.ipynb` to `.html` on my website (either pandoc or quarto)
+        - [ ] editable from the phone
+        - [ ] a cute `/cute-url-tail` 
+        - [ ] custom yml tags for date, materials and access restriction
+        - [ ] custom style
+
+3. Gallery (get rest of job)
+    - [ ] photo as a post, album as a collection
+    - [ ] cross-linking system with posts: wrap photos with storytelling (not any roll but trips and occasionally)
+    - [ ] metadata: rolls, camera, locations, development features
+
+4. More posts 
+    - [ ] collections of posts: how to structurise them? 
+    - [ ] indexing of posts: words, dates, tags, abstracts
+    - [ ] a feed with filtering
 
 # UI inspiration 
 
