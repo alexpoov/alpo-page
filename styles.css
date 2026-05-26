@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.75rem;
+    align-items: start;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin: 10px;
+    padding: 3px black
+}
+
+@media (min-width: 800px) {
+    .col {
+        grid-template-columns: 1fr;
+    }   
+}
