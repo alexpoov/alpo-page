@@ -74,9 +74,15 @@ The last step is to understand in which order to create stuff. Milestones:
     - [ ] indexing of posts: words, dates, tags, abstracts
     - [ ] a feed with filtering
 
-# UI inspiration 
+# UI 
+
+## Inspiration 
 
 Usually after identifying key needs, a competitor analysis comes into play. Instead, I just create a [moodboard](https://www.figma.com/design/f0XvBmAqp7cTOJLadFKCFH/alpo---the-world?node-id=0-1) where I'll store everything visual that I like: mostly typography, but also paintings or photos. 
 
 <!-- reference to collage / scrapbook / junk journaling
 e.g. https://rukodelnieradosti.blogspot.com/2021/12/blog-post_10.html -->
+
+## Sketches & warframes
+
+Based on what I collected for inspiration, I started drawing some layouts that I would be happy to see on my page. They're stored at [this tab at Figma](https://www.figma.com/design/f0XvBmAqp7cTOJLadFKCFH/alpo---the-world?node-id=14-97). In general I'll try to practice potential changes and improvements here for the start.
