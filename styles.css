@@ -7,18 +7,24 @@
     src: url('./fonts/Cabin/Cabin-VariableFont_wdth,wght.ttf');
 }
 
-body {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1rem;
-}
-
 :is(h1, h2, h3, h4, h5, h6) {
     font-family: "Montserrat";
 }
 
 p {
     font-family: "Cabin";
+}
+
+.about_me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1.5rem 1.75rem;
+  margin: 5rem
+}
+
+.photo_me {
+    width: 100%;
 }
 
 .col {
