@@ -1,19 +1,32 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Cabin;
+    src: url('./fonts/Cabin/Cabin-VariableFont_wdth,wght.ttf');
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1.75rem;
-    align-items: start;
+    gap: 1rem;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: "Cabin";
 }
 
 .col {
-    display: grid;
-    grid-template-columns: 2fr;
-    margin: 10px;
-    padding: 3px black
+    margin: 5px;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .col {
         grid-template-columns: 1fr;
     }   
-}
+} */
