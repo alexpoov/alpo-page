@@ -13,6 +13,9 @@
 
 :is(p, a) {
     font-family: "Cabin";
+}
+
+p {
     font-size: larger;
 }
 
@@ -53,6 +56,11 @@ body {
     justify-content: left;
     margin: 0rem;
     padding: 0rem;
+}
+
+.email {
+    font-family: monospace; 
+    font-size: 1.1rem
 }
 
 .about-links {
@@ -108,6 +116,9 @@ img {
         grid-template-rows: 85% 15%;
         margin: 0;
         padding: 0;
-
+    }
+    .email {
+        font-family: monospace; 
+        font-size: 0.9rem
     }
 }
