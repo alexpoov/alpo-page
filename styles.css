@@ -11,7 +11,7 @@
     font-family: "Montserrat";
 }
 
-p {
+:is(p, a) {
     font-family: "Cabin";
 }
 
@@ -32,7 +32,7 @@ p {
 .about-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 50rem;
+    max-width: 40rem;
 }
 
 .about-col {
@@ -40,6 +40,38 @@ p {
     padding: 0.5rem;
     display: grid;
     grid-template-rows: 85% 15%;
+}
+
+.about-greet {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.about-links {
+    display: flex;
+    justify-content: right;
+    height:auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
 }
 
 img {
