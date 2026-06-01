@@ -92,11 +92,13 @@ Based on what I collected for inspiration, I started drawing some layouts that I
 ## HTML first steps
 
 started with about me page, basis - our warframes
-
+* structure of html pages
+* time to think about classes
+* metatags, favicons, etc
 
 ## CSS flavouring
 
-* layout: display, marging/padding, positioning
+* layout: display, margin/padding, positioning
 * fonts: paid and open source, import and @font-face
 * photo: how to fill/scale, round corners, quality/size tradeoff
 * several hyperlinks: navbar, svg icons, blank tab opening
