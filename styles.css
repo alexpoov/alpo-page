@@ -21,20 +21,18 @@ p {
     background-color: rgba(255, 99, 71, 0.4)
 } */
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-card {
-    /* padding: 0.25rem; */
+.page-shell {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 .about-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 60rem;
+    max-width: 50rem;
 }
 
 .about-col {
@@ -44,10 +42,10 @@ body {
     grid-template-rows: 85% 15%;
 }
 
-.about-photo {
+img {
     width: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 /* @media (min-width: 800px) {
