@@ -90,9 +90,18 @@ img {
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
+    .page-shell {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .about-page { 
         grid-template-columns: 1fr; 
         max-width: 20rem;
+    }
+    :is(p, a) {
+        font-size: medium;
     }
     .about-col {
         display: grid;
