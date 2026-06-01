@@ -21,6 +21,10 @@
     background-color: rgba(255, 99, 71, 0.4)
 } */
 
+body {
+    height: 95vh;
+}
+
 .page-shell {
     position: absolute;
     top: 50%;
@@ -80,8 +84,13 @@ img {
     border-radius: 8px;
 }
 
-/* @media (min-width: 800px) {
-    .col {
-        grid-template-columns: 1fr;
-    }   
-} */
+@media (min-width: 200px) and (max-width: 767px) {
+    .about-page { 
+        grid-template-columns: 1fr; 
+        max-width: 20rem;
+    }
+    .about-col {
+        display: grid;
+        grid-template-rows: 85% 15%;
+    }
+}
