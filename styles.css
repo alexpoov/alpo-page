@@ -13,6 +13,7 @@
 
 :is(p, a) {
     font-family: "Cabin";
+    font-size: larger;
 }
 
 /* TEST */
@@ -36,7 +37,7 @@ body {
 .about-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 45rem;
+    max-width: 65rem;
 }
 
 .about-col {
@@ -96,5 +97,8 @@ img {
     .about-col {
         display: grid;
         grid-template-rows: 85% 15%;
+        margin: 0;
+        padding: 0;
+
     }
 }
