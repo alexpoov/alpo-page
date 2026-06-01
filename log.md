@@ -86,3 +86,17 @@ e.g. https://rukodelnieradosti.blogspot.com/2021/12/blog-post_10.html -->
 ## Sketches & warframes
 
 Based on what I collected for inspiration, I started drawing some layouts that I would be happy to see on my page. They're stored at [this tab at Figma](https://www.figma.com/design/f0XvBmAqp7cTOJLadFKCFH/alpo---the-world?node-id=14-97). In general I'll try to practice potential changes and improvements here for the start.
+
+# Basic Webpage
+
+## HTML first steps
+
+started with about me page, basis - our warframes
+
+
+## CSS flavouring
+
+* layout: display, marging/padding, positioning
+* fonts: paid and open source, import and @font-face
+* photo: how to fill/scale, round corners, quality/size tradeoff
+* several hyperlinks: navbar, svg icons, blank tab opening

@@ -36,7 +36,7 @@ body {
 .about-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 40rem;
+    max-width: 45rem;
 }
 
 .about-col {
@@ -74,14 +74,18 @@ body {
 .navbar li a {
   display: block;
   text-align: center;
-  padding: 16px 16px;
+  padding: 16px 8px;
   text-decoration: none;
 }
 
 img {
     width: 100%;
     display: block;
-    border-radius: 8px;
+    border-radius: 2px;
+}
+
+.social {
+     opacity: 0.7;
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
