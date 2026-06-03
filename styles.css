@@ -7,8 +7,15 @@
     src: url('./fonts/Cabin/Cabin-VariableFont_wdth,wght.ttf');
 }
 
+:root {
+  color-scheme: light dark;
+  --bg-color: light-dark(#ddd, #141414);
+  --txt-color: light-dark(#000000, #ddd);
+}
+
 :is(h1, h2, h3, h4, h5, h6) {
     font-family: "Montserrat";
+    color: var(--txt-color)
 }
 
 :is(p, a) {
@@ -17,6 +24,7 @@
 
 p {
     font-size: larger;
+    color: var(--txt-color)
 }
 
 /* TEST */
@@ -27,6 +35,7 @@ p {
 
 body {
     height: 95vh;
+    background-color: var(--bg-color);
 }
 
 .page-shell {
