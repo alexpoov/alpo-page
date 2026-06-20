@@ -26,22 +26,19 @@ Now, let's try to apply this formula to each of ~~two~~ three main types of user
 
 1. **Playground**. First, I'm doing it for myself. I want to develop a technological project from 0 to a stable and continuous thing that I will enjoy maintaining. I want to learn new stuff: visual storytelling and javascript, internet security, maps. I wanna stop playing videogames and start playing coding, basically. 
 
-    * "When `I got a creative project`, I want to `be able to present it however I want`, so I can `share it with others` without `relying on social media`.
+    * "When `I got a creative project (photos, design, etc)`, I want to `present it with maximum customization options`, so I can `share it with others` without `relying on external solutions`.
 
-    * "When `I got a technical project`, I want to `be able to integrate it`, so I can `practice it` without `playing in a sandbox`.
+    * "When `I got a technical project`, I want to `integrate it in my system`, so I can `practice it` without `doing sandbox exercises`.
 
 2. **Personal brand**. For those who work with me - my colleagues, employers, students and maybe even employees, - clearly structured and useful materials should be the priority. Presentations, code examples, links and ability to contact me. Additionally, I also would like to share work-in-progress stuff under restricted access.
 
-    * "When `learning about new stuff`, they want to `read / look / try it`, so they can `learn more` without `reading papers or completing courses`.
+    * "When `reading learning materials`, they want to `read / look / interact with it`, so they can `learn something new` without `reading papers or completing courses`.
 
     * "When `learning about me as a professional`, they want to `skim over my projects`, so they can `build an understanding of who am I` without `searching or contacting`.
 
 3. **Diary**. People who are interested in my posts, photos, thoughts and projects. I'm not an influencer unfortunately, but I like sharing my emotions and experiences - and I have some hobby that I enjoy for more than a decade already. Importantly, there should be an option to translate text: not everyone speaks english.
 
-    * "When `my friend shares`, I want to `read nicely designed and interesting story`, so I can `be familiar with them` without `getting bored or spending too much resources`.
-    * "When `I'm doing my hobby`, I want to `see someones projects`, so I can `get inspiration` without `obligations`.
-
-<!-- Note: blogging won't really work in the scope of the website. Rather a space for projects. -->
+Note: blogging won't really work in the scope of the website. I have a telegram channel for this, leave the website for a project space.
 
 ## Conceptual Model
 
@@ -52,9 +49,9 @@ Another framework that I really liked during my UX studies. It represents every 
 The last step is to understand in which order to create stuff. Milestones:
 
 1. About me - landing page to start replacing old url everywhere
-    - [ ] write a content
-    - [ ] create a design 
-    - [ ] air it! (a lot more than you actually think cuz here the coding begins...)
+    - [x] write a content
+    - [x] create a design 
+    - [x] air it! (a lot more than you actually think cuz here the coding begins...)
 
 2. 1st post 
     * upload and edit workflow 
@@ -85,18 +82,28 @@ e.g. https://rukodelnieradosti.blogspot.com/2021/12/blog-post_10.html -->
 
 ## Sketches & warframes
 
-Based on what I collected for inspiration, I started drawing some layouts that I would be happy to see on my page. They're stored at [this tab at Figma](https://www.figma.com/design/f0XvBmAqp7cTOJLadFKCFH/alpo---the-world?node-id=14-97). In general I'll try to practice potential changes and improvements here for the start.
+Based on what I collected for inspiration, I started drawing some layouts that I would be happy to see on my page. They're stored at [this tab in Figma](https://www.figma.com/design/f0XvBmAqp7cTOJLadFKCFH/alpo---the-world?node-id=14-97). In general I'll try to practice potential changes and improvements here for the start.
 
 # Basic Webpage
 
-## HTML first steps
+Based on the warframes, I've created an html layout of the page. 
 
-started with about me page, basis - our warframes
-* structure of html pages
+**Adaptive design**: although ["mobile-first"](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First) approach fairly gains its momentum, an understanding how exactly web interface block structure should translate into the touchscreen layout was one of the most unintuitive thing for me. 
+
+1. For the first step I just filled them with a semi-transparent colour and tried to align them as close to the warframes as possible - both in web and mobile looks. 
+2. Once we've achieved the proper layout, we can fill the page with the main types of content: images and text (with proper fonts). A long time of polishing how wide columns and photos could be for all types of screens.
+3. Then we add the rest of the content, such as buttons, navbar, etc, and make sure the it doesn't break the existing result.
+4. As for the last stem, we set up all the info on the head of html: metatags, favicons, language info, etc. 
+
+Woila, the first version of the website is ready!
+
+## HTML first topics
+
+* structure of html pages: div in div in div
 * time to think about classes
 * metatags, favicons, etc
 
-## CSS flavouring
+## CSS essential flavouring
 
 * layout: display, margin/padding, positioning
 * fonts: paid and open source, import and @font-face
